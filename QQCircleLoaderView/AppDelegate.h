@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  QQCircleLoaderView
 //
-//  Created by 刘朋坤 on 2018/12/27.
+//  Created by 彭倩倩 on 2018/12/27.
 //  Copyright © 2018 彭倩倩. All rights reserved.
 //
 

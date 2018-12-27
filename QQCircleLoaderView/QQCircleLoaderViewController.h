@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QQCircleLoaderViewController.h
 //  QQCircleLoaderView
 //
 //  Created by 彭倩倩 on 2018/12/27.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface QQCircleLoaderViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

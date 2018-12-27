@@ -16,6 +16,8 @@
 		22B34DDA21D4D707006A70DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B34DD921D4D707006A70DF /* main.m */; };
 		22B34DE421D4D707006A70DF /* QQCircleLoaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B34DE321D4D707006A70DF /* QQCircleLoaderViewTests.m */; };
 		22B34DEF21D4D707006A70DF /* QQCircleLoaderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B34DEE21D4D707006A70DF /* QQCircleLoaderViewUITests.m */; };
+		22B34DFF21D4D7AC006A70DF /* QQCircleLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B34DFE21D4D7AC006A70DF /* QQCircleLoaderView.m */; };
+		22B34E0221D4D98C006A70DF /* QQCircleLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B34E0121D4D98C006A70DF /* QQCircleLoaderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		22B34DEA21D4D707006A70DF /* QQCircleLoaderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQCircleLoaderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B34DEE21D4D707006A70DF /* QQCircleLoaderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCircleLoaderViewUITests.m; sourceTree = "<group>"; };
 		22B34DF021D4D707006A70DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B34DFD21D4D7AC006A70DF /* QQCircleLoaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCircleLoaderView.h; sourceTree = "<group>"; };
+		22B34DFE21D4D7AC006A70DF /* QQCircleLoaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCircleLoaderView.m; sourceTree = "<group>"; };
+		22B34E0021D4D98C006A70DF /* QQCircleLoaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCircleLoaderViewController.h; sourceTree = "<group>"; };
+		22B34E0121D4D98C006A70DF /* QQCircleLoaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCircleLoaderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +109,13 @@
 		22B34DC621D4D706006A70DF /* QQCircleLoaderView */ = {
 			isa = PBXGroup;
 			children = (
+				22B34DFC21D4D79E006A70DF /* QQCircleLoaderView */,
 				22B34DC721D4D706006A70DF /* AppDelegate.h */,
 				22B34DC821D4D706006A70DF /* AppDelegate.m */,
 				22B34DCA21D4D706006A70DF /* ViewController.h */,
 				22B34DCB21D4D706006A70DF /* ViewController.m */,
+				22B34E0021D4D98C006A70DF /* QQCircleLoaderViewController.h */,
+				22B34E0121D4D98C006A70DF /* QQCircleLoaderViewController.m */,
 				22B34DCD21D4D706006A70DF /* Main.storyboard */,
 				22B34DD321D4D707006A70DF /* Assets.xcassets */,
 				22B34DD521D4D707006A70DF /* LaunchScreen.storyboard */,
@@ -133,6 +142,15 @@
 				22B34DF021D4D707006A70DF /* Info.plist */,
 			);
 			path = QQCircleLoaderViewUITests;
+			sourceTree = "<group>";
+		};
+		22B34DFC21D4D79E006A70DF /* QQCircleLoaderView */ = {
+			isa = PBXGroup;
+			children = (
+				22B34DFD21D4D7AC006A70DF /* QQCircleLoaderView.h */,
+				22B34DFE21D4D7AC006A70DF /* QQCircleLoaderView.m */,
+			);
+			path = QQCircleLoaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B34DD221D4D706006A70DF /* QQCircleLoaderView.xcdatamodeld in Sources */,
+				22B34E0221D4D98C006A70DF /* QQCircleLoaderViewController.m in Sources */,
 				22B34DCC21D4D706006A70DF /* ViewController.m in Sources */,
+				22B34DFF21D4D7AC006A70DF /* QQCircleLoaderView.m in Sources */,
 				22B34DDA21D4D707006A70DF /* main.m in Sources */,
 				22B34DC921D4D706006A70DF /* AppDelegate.m in Sources */,
 			);
